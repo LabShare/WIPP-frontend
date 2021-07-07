@@ -9,6 +9,7 @@ sed -i.bak \
     -e "s|VISION_URL_VALUE|${VISION_URL}|g" \
     -e "s|ARGO_URL_VALUE|${ARGO_URL}|g" \
     -e "s|CATALOG_URL_VALUE|${CATALOG_URL}|g" \
+    -e "s|KEYCLOAK_URL_VALUE|${KEYCLOAK_URL}|g" \
     deploy/kubernetes/frontend-deployment.yaml
 rm deploy/kubernetes/frontend-deployment.yaml.bak
 

@@ -19,7 +19,7 @@ The following properties are expected to be defined in this file:
 - `jupyterNotebooksUrl`: URL of JupyterHub, for Jupyter Notebooks,
 - `plotsUiUrl`: URL of Plots app for scatterplots visualization.
 - `catalogUiUrl`: URL of Catalog app, for images collections upload, visualization and more.
-
+- `keycloakUrl`: URL of KeyCloak app, for authentication purposes
 We provide a sample configuration file `sample-config.json` at the root of this repository defining
 a default configuration for the Argo Dashboard URL at `localhost:30501` (sample argo-ui service patch 
 to achieve this configuration available 

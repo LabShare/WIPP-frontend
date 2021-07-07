@@ -26,6 +26,8 @@ spec:
           value: VISION_URL_VALUE
         - name: CATALOGUI_URL
           value: CATALOG_URL_VALUE
+        - name: KEYCLOAK_URL
+          value: KEYCLOAK_URL_VALUE
         ports:
         - containerPort: 80
       restartPolicy: Always
